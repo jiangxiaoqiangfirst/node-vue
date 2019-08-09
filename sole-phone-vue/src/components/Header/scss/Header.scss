@@ -1,0 +1,67 @@
+$borderColor: #909090;
+$fontColor:#acacac;
+.header {
+  position: fixed;
+  top: 0;
+  z-index:9999;
+  width: 100%;
+  // .topImg {
+  //   img {
+  //     height: 1rem;
+  //     width: 100%;
+  //   }
+  //   .deleteitem {
+  //     position: absolute;
+  //     width: 0.14rem;
+  //     height: 0.14rem;
+  //     background: url(./img/deleteitem.png);
+  //     background-size: 0.14rem 0.14rem;
+  //     right: 0.05rem;
+  //     top: 0.05rem;
+  //   }
+  // }
+  .newTopbar_box {
+    background: #fff;
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .newLogo {
+      a {
+        display: block;
+        // font-size: 0.24rem;
+        // color: #ff6400;
+        width:.66rem;
+        height:.24rem;
+        margin: 0 0.14rem;
+        background:url(./img/logo.svg);
+        background-size:.66rem .24rem;
+      }
+    }
+    .newSearch {
+      display: block;
+      width:4.6rem;
+      height: 0.34rem;
+      color: $fontColor;
+      background: #ebebeb;
+      border-radius: 0.03rem;
+      border: solid 0.01rem #dcdcdc;
+      line-height: 0.34rem;
+      top: 0.07rem;
+      overflow: hidden;
+      padding: 0 0.1rem;
+    }
+    .newLoginBtn{
+      margin-right:0.1rem;
+      width:.4rem;
+      height:.12rem;
+      line-height:.12rem;
+      background:url(./img/dl.svg) no-repeat center top;
+      padding-top:.22rem;
+      background-size:auto .22rem;
+      text-align:center;
+      color:$fontColor;
+    }
+  }
+}

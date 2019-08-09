@@ -1,0 +1,193 @@
+.top {
+  position: relative;
+  height: 0.52rem;
+  line-height: 0.52rem;
+  background: #fff;
+  border-bottom:.01rem solid #dedede;
+  text-align: center;
+  color: #6a6565;
+  font-size: 0.22rem;
+}
+.goback {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0.52rem;
+  width: 0.52rem;
+  background: url(../../assets/img/history1.png) center center no-repeat;
+  background-size: .17rem;
+}
+.logo {
+  text-align: center;
+  padding: 1.25rem 0 1.1rem;
+}
+.logo img {
+  width: 45%;
+}
+.content {
+    margin-top: 1rem;
+  padding: 0 0.8rem;
+}
+.zd_wapper {
+  border:.01rem solid #dedede;
+  border-radius:.02rem;
+  border-bottom: 0;
+}
+.zd_box {
+  height: 0.53rem;
+  padding: 0 0.3rem 0 0.52rem;
+  border-bottom:.01rem solid #dedede;
+  position: relative;
+  background: #fafafa;
+}
+.zd_input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #fafafa;
+  color: #666;
+  font-size: 0.18rem;
+}
+.zd_box i {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.52rem;
+  height: 0.52rem;
+}
+i.user {
+  background: url(./images/user.png) center center no-repeat;
+}
+i.password {
+  background: url(./images/suo.png) center center no-repeat;
+}
+i.checkcode {
+  background: url(./images/yzm.png) center center no-repeat;
+}
+i.phone {
+  background: url(./images/phone.png) center center no-repeat;
+}
+i.company {
+  background: url(./images/company.png) center center no-repeat;
+}
+::-webkit-input-placeholder {
+  color: #aaa;
+}
+.zd_box_r {
+  padding-right: 2.2rem;
+}
+.sxyzm {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1rem;
+  height: 0.53rem;
+}
+.yzmImg {
+  position: absolute;
+  right: 1.05rem;
+  top: 0.15rem;
+  height: 1rem;
+  width: 2.85rem;
+}
+.lr_o {
+  font-size: 0.2rem;
+  color: #979797;
+  margin-top: 0.32rem;
+}
+.lr_o_l {
+  float: left;
+}
+.lr_o_l input {
+  vertical-align: middle;
+  margin: 0 0 .02rem .02rem;
+}
+.lr_o_r {
+  float: right;
+  color: #979797;
+}
+.lr_btn {
+  width: 100%;
+  height: .6rem;
+  background: #ff7300;
+  color: #fff;
+  font-size: 0.3rem;
+  border-radius: .02rem;
+  border: 0;
+}
+.lr_error {
+  height: 1rem;
+  line-height: 1rem;
+  color: #f00;
+  font-size: 0.2rem;
+}
+.l_regBtn {
+  text-align: center;
+  margin: 1.1rem 0;
+}
+.l_regBtn a {
+  display: inline-block;
+  width: 2.8rem;
+  height: 0.55rem;
+  line-height: 0.56rem;
+  border:.01rem solid #00b7ee;
+  color: #00b7ee;
+  font-size: 0.2rem;
+  border-radius:.02rem;
+}
+.dlfs_box {
+  text-align: center;
+}
+.dlfs_tit {
+  width: 80%;
+}
+.dlfs_box .dlfs {
+  margin: 0.55rem 0.3rem 0 0.3rem;
+}
+.yhmdl,
+.sjdl_box {
+  display: none;
+}
+.hqyzm {
+  position: absolute;
+  right: 0.1rem;
+  top: 0.05rem;
+  width: 2.2rem;
+  height: 0.43rem;
+  line-height: 0.43rem;
+  text-align: center;
+  font-size: 0.2rem;
+  background: #ff1f53;
+  color: #fff;
+}
+.hqyzm_no {
+  background: #ccc;
+}
+.reg_o {
+  text-align: center;
+  margin: .5rem 0;
+  font-size: 0.2rem;
+  color: #808080;
+}
+.reg_o span {
+  color: #f00;
+  font-weight: bold;
+}
+.reg_o a {
+  color: #0aa0de;
+}
+.reg_xx {
+  padding: 0.9rem 0.5rem;
+}
+.reg_xx_tit {
+  text-align: center;
+  font-size: 0.5rem;
+  margin-bottom: 0.55rem;
+}
+.rec_xx_info {
+  line-height: 0.7rem;
+  color: #555;
+}

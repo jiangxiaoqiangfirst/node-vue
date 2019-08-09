@@ -1,0 +1,61 @@
+.content{
+    margin-top:.6rem;
+}
+.content .img{
+    text-align:center;
+}
+.content .produce{
+    text-indent: .4rem;
+    height:.4rem;
+    line-height:.4rem;
+    font-size:.2rem;
+    color:#666;
+}
+.content .num{
+    height:.42rem;
+    line-height:.4rem;
+    font-size:.2rem;
+    color:#666;
+    margin-left:.4rem;
+}
+.content .num * {
+    float:left;
+    height:.4rem;
+    line-height:.4rem;
+    text-align:center;
+} 
+.content .num .reduce{
+    border:1px solid #909090;
+    
+    width:.4rem;
+
+}
+.content .num input{
+    border-top:1px solid #909090;
+    border-bottom:1px solid #909090;
+    border-right:0;
+    border-left:0;
+
+}
+.content .num .add{
+    border:1px solid #909090;
+    width:.4rem;
+}
+.content .price{
+    margin-left:0.4rem;
+    color:#ff6400;
+}
+.content .price i{
+    color:#000;
+}
+.content .addcar{
+    margin: .2rem 0 0 .4rem;
+    height:.4rem;
+    border:1px solid #909090;
+}
+
+.content .mycar{
+    margin: .2rem 0 0 .4rem;
+    height:.4rem;
+    border:1px solid #909090;
+}

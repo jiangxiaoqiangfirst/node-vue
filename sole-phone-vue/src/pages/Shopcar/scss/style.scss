@@ -1,0 +1,131 @@
+.nav-head {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border-bottom: 1px solid #e8eaec;
+  z-index: 99;
+}
+.nav-head ul {
+  width: 6.4rem;
+  height: 0.45rem;
+  padding-top: 0.15rem;
+  margin: 0 auto;
+}
+.nav-head ul li {
+  width: 0.29rem;
+  height: 0.31rem;
+  background: url(../../assets/img/history.png) no-repeat 0 0;
+  background-size: 100%;
+  margin: 0 0 0 0.38rem;
+}
+/******************************/
+#shopcar .nav {
+  margin-top: 0.6rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0.2rem;
+  background: #ddd;
+  vertical-align: baseline;
+  font-size: 0.3rem;
+}
+#shopcar .nav .nav_check {
+  display: flex;
+  flex-direction: row;
+}
+#shopcar .nav .nav_check input {
+  margin: 0.3rem;
+}
+
+#shopcar .content div {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#shopcar .content div .check {
+  width: 10%;
+  margin: 0.9rem 0;
+}
+#shopcar .content div .img {
+  width: 50%;
+  background: #555;
+  margin: 0.1rem;
+}
+#shopcar .content div .img img {
+  width: 100%;
+}
+#shopcar .content div .introduce {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.3rem;
+}
+#shopcar .content div .introduce span {
+  margin: 0.2rem 0;
+}
+#shopcar .content div .introduce p {
+  font-size: 0.2rem;
+}
+#shopcar .content div .introduce div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#shopcar .content div .introduce div input {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+#shopcar .content div .introduce div div {
+  width: 100%;
+  height: 0.5rem;
+}
+#shopcar .content div .introduce div .quant {
+  width: 2rem;
+}
+#shopcar .content div .introduce div .reduce {
+  width: 0.5rem;
+  font-size: 0.5rem;
+  color: rgb(7, 114, 25);
+}
+#shopcar .content div .introduce div .add {
+  width: 0.5rem;
+  font-size: 0.5rem;
+  color: rgb(7, 114, 25);
+}
+#shopcar .content div .introduce div .num {
+  text-align: center;
+}
+#shopcar .content div .del {
+  width: 10%;
+  margin: 0.2rem 0;
+}
+
+#shopcar .footer {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  background: #fff;
+}
+#shopcar .footer div {
+  text-align: center;
+  font-size: 0.3rem;
+}
+#shopcar .footer .count {
+  width: 70%;
+}
+#shopcar .footer .settlement {
+  width: 30%;
+  background: rgb(7, 114, 25);
+  color: #fff;
+}
